@@ -1,7 +1,3 @@
-
-console.log("EcmaScript 6");
-console.log(" ");
-
     console.log(`Faça login no sistema utilizando: login(Nome , Senha);`);
     let acesso = false;
     function login (name, password) {
