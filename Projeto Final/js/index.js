@@ -49,8 +49,8 @@ const digito = (n) => {
         novoNumero = false;
     } else exibirValor += n;
     visor();
-    if(exibirValor.length > 10){
-        console.log('pare');
+    if(exibirValor.length > 11){
+        exibirValor = exibirValor.substring(0,12);
     }
 };
 
